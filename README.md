@@ -1,7 +1,7 @@
 # Using bash as postprocess script for GitHub's Flat Data actions
 
 
-This repository demonstrates how to run a `bash` script as postprocess step for GitHub's Flat Data actions.
+This repository demonstrates how to run a `bash` script as postprocess step for [GitHub's Flat Data actions](https://octo.github.com/projects/flat-data).
 
 The idea is basic : Use Deno to trigger the execution of a `bash` script.
 
