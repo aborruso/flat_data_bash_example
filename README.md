@@ -3,12 +3,12 @@
 
 This repository demonstrates how to run a `bash` script as postprocess step for [GitHub's Flat Data actions](https://octo.github.com/projects/flat-data).
 
-The idea is basic : Use Deno to trigger the execution of a `bash` script.
+The idea is basic : use Deno to trigger the execution of a `bash` script.
 
 The goal is simple:
 
 - to download every day COVID-19 italian regional data CSV file;
-- to retain only two columns of this file.
+- to retain only two columns of it.
 
 This example also install the great [Miller](https://github.com/johnkerl/miller): it's like awk, sed, cut, join, and sort for data formats such as CSV, TSV, tabular JSON and positionally-indexed.
 
