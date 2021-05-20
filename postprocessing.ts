@@ -2,8 +2,8 @@ import 'https://deno.land/x/flat@0.0.10/mod.ts'
 
 
 // Forwards the execution to the bash script
-const py_run = Deno.run({
+const bash_run = Deno.run({
     cmd: ['./postprocessing.sh'].concat(Deno.args),
 });
 
-await py_run.status();
+await bash_run.status();
