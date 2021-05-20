@@ -9,4 +9,4 @@ set -o pipefail
 sudo apt-get install Miller -y
 
 # retain only two columns of the input file
-mlr --csv -I cut -f data,ricoverati_con_sintomi ./dpc-covid19-ita-regioni-latest.csv
+mlr --csv -I cut -f data,ricoverati_con_sintomi $1
