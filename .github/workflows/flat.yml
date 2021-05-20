@@ -1,9 +1,12 @@
+name: bashing data
 on:
   workflow_dispatch: {}
   push:
     paths:
       - .github/workflows/flat.yml
       - ./postprocess.ts
+  schedule:
+    - cron: 0 * * * *
 jobs:
   scheduled:
     runs-on: ubuntu-latest
