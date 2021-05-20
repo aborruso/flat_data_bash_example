@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
-      - ./postprocess.ts
+      - ./postprocessing.ts
   schedule:
     - cron: 0 * * * *
 jobs:
