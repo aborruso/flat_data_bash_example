@@ -22,4 +22,4 @@ This example also install the great [Miller](https://github.com/johnkerl/miller)
 
 ## Thanks
 
-Thanks to Pierre-Olivier Simonard for [its Python way](https://github.com/pierrotsmnrd/flat_data_py_example) to do it.
+Thanks to Pierre-Olivier Simonard for [its inspirational Python way](https://github.com/pierrotsmnrd/flat_data_py_example) to do it.
