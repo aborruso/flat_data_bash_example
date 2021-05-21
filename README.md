@@ -22,5 +22,4 @@ This example also install the great [Miller](https://github.com/johnkerl/miller)
 
 ## Thanks
 
-- Thanks to the Github Octo Team for [their friendly advices on Twitter](https://twitter.com/pierrotsmnrd/status/1394890851659177984?s=20) ;
-- Thanks to Pierre-Olivier Simonard for [its Python way](https://github.com/pierrotsmnrd/flat_data_py_example) to do it.
+Thanks to Pierre-Olivier Simonard for [its Python way](https://github.com/pierrotsmnrd/flat_data_py_example) to do it.
