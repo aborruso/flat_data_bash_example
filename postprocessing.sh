@@ -5,7 +5,7 @@ set -e
 set -u
 set -o pipefail
 
-# Install Miller
+# install Miller to process the CSV https://github.com/johnkerl/miller
 sudo apt-get install miller -y
 
 # retain only two columns of the input file
