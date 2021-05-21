@@ -6,7 +6,7 @@ on:
       - .github/workflows/flat.yml
       - ./postprocessing.ts
   schedule:
-    - cron: 0 * * * *
+    - cron: 49 15 * * *
 jobs:
   scheduled:
     runs-on: ubuntu-latest
